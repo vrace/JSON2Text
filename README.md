@@ -5,7 +5,7 @@ JSON to swift code converter.
 
 Sometimes we need to create stubs from JSON file to test our Models. However, creating the stubs manually is not a good idea - it takes time, hard to make sure correctness, and sometimes impossible to update.
 
-There's another way, we could simply copy & paste the JSON file into the code, and make some slight changes to convert it into a dictionary. However this brings another issue. We already know that swift compiler is extremely slow when doing complex typ inference.
+There's another way, we could simply copy & paste the JSON file into our code, and make some slight changes to convert it into a dictionary. However this brings another issue. We already know that swift compiler is extremely slow when doing complex type inference.
 
 That's what this utility came for. This utility simply converts the JSON file into a giant string, so that you could use some other utility classes to parse it into dictionary or JSON object. This is not pretty, but it works, and the compiler becoming 'swift' when compared to complex dictionary.
 
